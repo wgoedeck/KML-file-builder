@@ -20,6 +20,7 @@ A PyQt GUI example that converts Garmin waypoint data to a KML file, with waypoi
 
 This graphical user interface, designed with Qt Designer, converts a GPS waypoint file such as from a Garmin or other GPS navigation device to a KML (Keyhole Markup Language) file that can be viewed by a GIS program such as Google Earth. The waypoints in the KML file can be edited to include pictures and comments. 
 
+<a name="reason_for_developing"/>
 ### Reason for developing <a class="anchor" id="reason_for_developing"></a>
 I enjoy hiking, and also to geographically record the locations I have gone. While disparate photos may offer memories of locations visited, associating photos to a geographic map adds dimension to the record. 
 
@@ -208,11 +209,11 @@ I wanted to hike along the abandoned town road and explore some of the former dw
 
 <img src="images/20241012_173638-entry_onto_tr.jpg"  width="600" alt="Hamburg road">
 
-					Figure 9. Hamburg road, very overgrown.
+     		Figure 9. Hamburg road, very overgrown.
 
 <img src="images/20241012_183119-gate_onto_Hamburg_Rd.jpg"  width="600" alt="Hamburg road gate">
 
-		Figure 10. Red gate to left blocking Hamburg road, very overgrown.
+	Figure 10. Red gate to left blocking Hamburg road, very overgrown.
 
 Viewing a past satellite image can help locating overgrown roads and trails, as seen in **Figure 11**, taken in April 2007, when vegetation had receded. I added extra waypoints to show sites I planned to see. 
 
