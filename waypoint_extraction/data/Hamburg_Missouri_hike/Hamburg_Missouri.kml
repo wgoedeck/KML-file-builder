@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<name>Waypoints</name>
+	<description>MatLab waypoint header</description>
+	<StyleMap id="msn_shaded_dot">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shaded_dot</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shaded_dot</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_T">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_T</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_T</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_post_office">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/post_office.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_shaded_dot">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_post_office">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/post_office.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_T">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_T">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_post_office">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_post_office</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_post_office</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_camera">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_shaded_dot">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_camera">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_camera">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera</styleUrl>
+		</Pair>
+	</StyleMap>
+    <Placemark>
+        <name>1</name>
+        <description><![CDATA[12-OCT-24 16:34]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.731950,38.671600,186.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>2</name>
+        <description><![CDATA[12-OCT-24 17:36]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.724980,38.671310,165.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>3</name>
+        <description><![CDATA[12-OCT-24 17:39]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.723620,38.670950,150.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>4</name>
+        <description><![CDATA[12-OCT-24 17:51]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.722150,38.671370,151.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>5</name>
+        <description><![CDATA[12-OCT-24 18:01]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.726340,38.671840,181.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>6</name>
+        <description><![CDATA[12-OCT-24 18:09]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.729690,38.672940,194.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>7</name>
+        <description><![CDATA[12-OCT-24 18:14]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.730980,38.673330,179.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>8</name>
+        <description><![CDATA[12-OCT-24 18:21]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.731850,38.675730,196.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>9</name>
+        <description><![CDATA[12-OCT-24 18:28]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.733230,38.676560,206.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>10</name>
+        <description><![CDATA[12-OCT-24 18:31]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.733640,38.676860,210.00</coordinates>
+        </Point>
+    </Placemark>
+</Document>
+</kml>

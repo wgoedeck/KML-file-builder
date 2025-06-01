@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<name>Waypoints</name>
+	<description>MatLab waypoint header</description>
+	<StyleMap id="msn_shaded_dot">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shaded_dot</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shaded_dot</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_T">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_T</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_T</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_post_office">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/post_office.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_shaded_dot">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_post_office">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/post_office.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_T">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_T">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/T-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_post_office">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_post_office</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_post_office</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_camera">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_shaded_dot">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_camera">
+		<IconStyle>
+			<scale>.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_camera">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_camera</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_camera</styleUrl>
+		</Pair>
+	</StyleMap>
+    <Placemark>
+        <name>1</name>
+        <description><![CDATA[12-OCT-24 16:34<p><img id="id_photo" src="Hwy94_and_RRgrade-2024-10-12.png" width="400"></img><br>Begin trail at RR grade near Hwy 94<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.731950,38.671600,186.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>2</name>
+        <description><![CDATA[12-OCT-24 17:36<p><img id="id_photo" src="20241012_173638-entry_onto_tr.jpg" width="400"></img><br>Emerging onto hidden Hamburg road<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.724980,38.671310,165.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>3</name>
+        <description><![CDATA[12-OCT-24 17:39<p><img id="id_photo" src="20241012_173932-bridge_near_quarry.jpg" width="400"></img><br>Bridge near quarry on Hamburg road<hr><p><img id="id_photo" src="20241012_174429-quarry.jpg" width="400"></img><br>Quarry near Hamburg road and Missouri River<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.723620,38.670950,150.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>4</name>
+        <description><![CDATA[12-OCT-24 17:51<p><img id="id_photo" src="20241012_175109-MissouriR.jpg" width="400"></img><br>Missouri River, viewed from off of former Missouri-Kentucky-Tennessee RR (MKT - "Katy") trail.<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.722150,38.671370,151.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>5</name>
+        <description><![CDATA[12-OCT-24 18:01<p><img id="id_photo" src="20241012_180147-RothCem.jpg" width="400"></img><br>Roth-Heck Cemetery, along Hamburg road.<hr><p><img id="id_photo" src="20241012_180232-Matilda_Roth_stone.jpg" width="400"></img><br>Roth-Heck Cemetery, Matilda Roth marker.<hr><p><img id="id_photo" src="20241012_180259-Philip_Beck_stone.jpg" width="400"></img><br>Philip & Elisa Heck, in old German Roth-Heck Cemetery.<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.726340,38.671840,181.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>6</name>
+        <description><![CDATA[12-OCT-24 18:09<p><img id="id_photo" src="20241012_180923-bend_in_rd_looking_s.jpg" width="400"></img><br>Bend in old Hamburg road, looking south.<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.729690,38.672940,194.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>7</name>
+        <description><![CDATA[12-OCT-24 18:14<p><img id="id_photo" src="20241012_181431-Yahn_Dam_looking-N.jpg" width="400"></img><br>Looking north at Yahn Dam.<hr><p><img id="id_photo" src="20241012_181601-Yahn_Dam_looking_SE.jpg" width="400"></img><br>Other side of Yahn Dam, looking south-east.<hr><p>Yahn Dam, an attempt by local resident Theodore Yahn to dam the stream for a boating club in the 30s, but abandoned, see https://thetntstory.blogspot.com/2010/11/normal-0-microsoftinternetexplorer4_21.html<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.730980,38.673330,179.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>8</name>
+        <description><![CDATA[12-OCT-24 18:21<p>Intersection where old RR grade crosses old WWII road.<hr>]]></description>
+        <styleUrl>#msn_shaded_dot</styleUrl>
+        <Point>
+            <coordinates>-90.731850,38.675730,196.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>9</name>
+        <description><![CDATA[12-OCT-24 18:28<p><img id="id_photo" src="20241012_182801-Hamburg_Rd_near_Hwy94.jpg" width="400"></img><br>Old WWII road under powerline.<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.733230,38.676560,206.00</coordinates>
+        </Point>
+    </Placemark>
+    <Placemark>
+        <name>10</name>
+        <description><![CDATA[12-OCT-24 18:31<p><img id="id_photo" src="20241012_183119-gate_onto_Hamburg_Rd.jpg" width="400"></img><br>Red gate of old WWII road off of Hwy 95.<hr><p><img id="id_photo" src="Hwy94_and_WWII_HamburgRd-2024-10-12.png" width="400"></img><br>Looking south at east turnoff to old Hamburg and WWII road off of Hwy 95. Red gate is very overgrown.<hr>]]></description>
+        <styleUrl>#msn_camera</styleUrl>
+        <Point>
+            <coordinates>-90.733640,38.676860,210.00</coordinates>
+        </Point>
+    </Placemark>
+</Document>
+</kml>
